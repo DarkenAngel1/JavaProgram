@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c342138-5757-4610-80ee-bd616f584a5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/access/QualifiedMyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/QualifiedMyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/access/QualifiedMyClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -42,6 +43,25 @@
               <folding>
                 <element signature="e#91#92#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/mindview/util/print.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/Burrito.java" />
         <option value="$PROJECT_DIR$/src/access/mypackage/MyClass.java" />
         <option value="$PROJECT_DIR$/src/access/QualifiedMyClass.java" />
+        <option value="$PROJECT_DIR$/src/net/mindview/util/print.java" />
       </list>
     </option>
   </component>
@@ -97,8 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,7 +136,22 @@
               <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java Program" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="mindview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="mindview" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +249,8 @@
       <workItem from="1561797799484" duration="6469000" />
       <workItem from="1562926725610" duration="756000" />
       <workItem from="1563078257230" duration="3407000" />
+      <workItem from="1563149795732" duration="97000" />
+      <workItem from="1563150255700" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="Git Test">
       <created>1563078834229</created>
@@ -239,13 +277,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28193000" />
+    <option name="totallyTimeSpent" value="30056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="24" width="1428" height="784" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27372262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28248176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,6 +337,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -416,6 +467,23 @@
           <folding>
             <element signature="e#91#92#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
