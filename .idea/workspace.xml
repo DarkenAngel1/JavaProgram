@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c342138-5757-4610-80ee-bd616f584a5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c342138-5757-4610-80ee-bd616f584a5d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mindview/util/print.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="323">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -63,6 +60,15 @@
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrintTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -102,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/access/mypackage/MyClass.java" />
         <option value="$PROJECT_DIR$/src/access/QualifiedMyClass.java" />
         <option value="$PROJECT_DIR$/src/net/mindview/util/print.java" />
+        <option value="$PROJECT_DIR$/src/PrintTest.java" />
       </list>
     </option>
   </component>
@@ -132,27 +139,6 @@
               <item name="Java Program" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="mindview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="mindview" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QualifiedMyClass">
+  <component name="RunManager" selected="Application.PrintTest">
     <configuration name="Burrito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Burrito" />
       <module name="Java Program" />
@@ -193,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadingVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OverloadingVarargs" />
+    <configuration name="PrintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintTest" />
       <module name="Java Program" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintTest" />
         <item itemvalue="Application.QualifiedMyClass" />
         <item itemvalue="Application.Burrito" />
         <item itemvalue="Application.EnumOrder" />
         <item itemvalue="Application.SimpleEnumUse" />
-        <item itemvalue="Application.OverloadingVarargs" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +236,7 @@
       <workItem from="1562926725610" duration="756000" />
       <workItem from="1563078257230" duration="3407000" />
       <workItem from="1563149795732" duration="97000" />
-      <workItem from="1563150255700" duration="1766000" />
+      <workItem from="1563150255700" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="Git Test">
       <created>1563078834229</created>
@@ -273,14 +259,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563095381370</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Git Test">
+      <created>1563152152693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563152152693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30056000" />
+    <option name="totallyTimeSpent" value="30361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="24" width="1428" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28248176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -473,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mindview/util/print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="323">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
@@ -485,6 +479,13 @@
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
