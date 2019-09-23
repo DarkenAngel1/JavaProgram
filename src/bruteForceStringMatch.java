@@ -39,5 +39,4 @@ public class bruteForceStringMatch {
         String b=input.nextLine();
         bruteForceStringMatch(a,b);
     }
-
 }
