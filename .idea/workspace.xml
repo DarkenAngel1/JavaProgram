@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c342138-5757-4610-80ee-bd616f584a5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Program/META-INF/Java Program.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForceStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForceStringMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,16 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hide">
+  <component name="RunManager" selected="Application.Orc">
     <configuration name="CADSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CADSystem" />
-      <module name="Java Program" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dijkstra" />
       <module name="Java Program" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Orc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Orc" />
+      <module name="Java Program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlaceSetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PlaceSetting" />
       <module name="Java Program" />
@@ -97,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Orc" />
         <item itemvalue="Application.Hide" />
         <item itemvalue="Application.CADSystem" />
         <item itemvalue="Application.PlaceSetting" />
         <item itemvalue="Application.NQueeens" />
-        <item itemvalue="Application.Dijkstra" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +151,9 @@
       <workItem from="1568899425630" duration="1790000" />
       <workItem from="1568902481084" duration="80000" />
       <workItem from="1568902769068" duration="1291000" />
-      <workItem from="1569226176699" duration="7334000" />
+      <workItem from="1569226176699" duration="13383000" />
+      <workItem from="1569282683977" duration="4845000" />
+      <workItem from="1569398161620" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="Git Test">
       <created>1563078834229</created>
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568805459007</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Git Test">
+      <created>1569236534074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569236534074</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
