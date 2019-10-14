@@ -3,17 +3,17 @@ import java.text.DecimalFormat;
 
 public class Example_4x6x16 {
     private static final int INPUT_NEURONS = 2;
-    private static final int HIDDEN_NEURONS = 1;
-    private static final int OUTPUT_NEURONS = 2;
+    private static final int HIDDEN_NEURONS = 4;
+    private static final int OUTPUT_NEURONS = 1;
 
     private static final double LEARN_RATE = 0.2;    // Rho.
-    private static final double NOISE_FACTOR = 0.45;
+    private static final double MAX_ERROR = 0.0001;
     private static final int TRAINING_REPS = 10000;
 
-    // Input to Hidden Weights (with Biases).
+    // Input to Hidden Weights (with Biases).输入层与隐藏层的权值矩阵
     private static double wih[][] = new double[INPUT_NEURONS + 1][HIDDEN_NEURONS];
 
-    // Hidden to Output Weights (with Biases).
+    // Hidden to Output Weights (with Biases).隐藏层和输出层的权值矩阵
     private static double who[][] = new double[HIDDEN_NEURONS + 1][OUTPUT_NEURONS];
 
     // Activations.
@@ -34,7 +34,7 @@ public class Example_4x6x16 {
 
     private static void NeuralNetwork() {
 
-        assignRandomWeights();
+        assignRandomWeights();  //权值矩阵初始化
 
         // Train the network.
         for (int epoch = 0; epoch < TRAINING_REPS; epoch++) {
@@ -63,11 +63,11 @@ public class Example_4x6x16 {
 
     private static void getTrainingStats() {
         for (int j = 0; j < INPUT_NEURONS; j++) {
-            inputs[j] = trainInputs[j];
+            inputs[j] = trainInputs[j];//{0.05,0.1}
         } // j
 
         for (int j = 0; j < OUTPUT_NEURONS; j++) {
-            target[j] = trainOutput[j];
+            target[j] = trainOutput[j];//{0.01,0.99}
         } // j
 
         feedForward();
@@ -117,7 +117,7 @@ public class Example_4x6x16 {
         }
         return sel;
     }
-
+    //正向传播函数
     private static void feedForward() {
         double sum = 0.0;
 
@@ -144,7 +144,7 @@ public class Example_4x6x16 {
         } // out
         return;
     }
-
+    //反向传播函数
     private static void backPropagate() {
         // Calculate the output layer error (step 3 for output cell).
         for (int out = 0; out < OUTPUT_NEURONS; out++) {
@@ -199,12 +199,12 @@ public class Example_4x6x16 {
 
     private static double sigmoid(final double val) {
         return (1.0 / (1.0 + Math.exp(-val)));
-    }
+    }  //神经网络激活函数
 
+    //sigmoid函数求导
     private static double sigmoidDerivative(final double val) {
         return (val * (1.0 - val));
     }
-
     public static void main(String[] args) {
         NeuralNetwork();
         return;
