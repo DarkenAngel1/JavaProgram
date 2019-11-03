@@ -19,8 +19,10 @@ public class LinkedListFeatures {
         print("pets.poll(): "+pets.poll());
         print(pets);
         pets.addFirst(new Rat());
-        print("After offer(): "+pets);
+        print("After addFirst(): "+pets);
         pets.offer(Pets.randomPet());
+        print("After offer(): "+pets);
+        pets.add(Pets.randomPet());
         print("After add(): "+pets);
         pets.addLast(new Hamster());
         print("After addLast(): "+pets);
