@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c342138-5757-4610-80ee-bd616f584a5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Program/net/mindview/util/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Program/net/mindview/util/Range.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Program/net/mindview/util/print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Program/net/mindview/util/print.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -17,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,43 +43,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="b6973ddb-8ab6-4320-91bf-0e7b147167d2" />
+    <option name="defaultAccountId" value="f6e88367-a542-4734-bd3a-d9f5bb8c130c" />
   </component>
   <component name="ProjectId" id="1R3jdrjXh3YL6lgKUR8tIB3foCx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Program\src" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Music2">
-    <configuration name="BPNET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AIHomework.BPNET" />
+  <component name="RunManager" selected="Application.testequal">
+    <configuration name="EnvironmentVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="holding.EnvironmentVariables" />
       <module name="Java Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AIHomework.*" />
+          <option name="PATTERN" value="holding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,26 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_4x6x16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_4x6x16" />
-      <module name="Java Program" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalData" />
-      <module name="Java Program" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.music.Music" />
+    <configuration name="FullConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.FullConstructors" />
       <module name="Java Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.music.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,28 +98,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Music2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.music.Music2" />
+    <configuration name="InheritingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.InheritingExceptions" />
       <module name="Java Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.music.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceVsIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="holding.InterfaceVsIterator" />
+      <module name="Java Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="holding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testequal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testequal" />
+      <module name="Java Program" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Music2" />
-        <item itemvalue="Application.FinalData" />
-        <item itemvalue="Application.Music" />
-        <item itemvalue="Application.BPNET" />
-        <item itemvalue="Application.Example_4x6x16" />
+        <item itemvalue="Application.testequal" />
+        <item itemvalue="Application.FullConstructors" />
+        <item itemvalue="Application.InheritingExceptions" />
+        <item itemvalue="Application.EnvironmentVariables" />
+        <item itemvalue="Application.InterfaceVsIterator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Danny\AppData\Roaming\Subversion</configuration>
@@ -193,7 +226,75 @@
       <workItem from="1570965480978" duration="3381000" />
       <workItem from="1570978818941" duration="2669000" />
       <workItem from="1571055079593" duration="5284000" />
-      <workItem from="1571099027571" duration="611000" />
+      <workItem from="1571099027571" duration="3508000" />
+      <workItem from="1571112800930" duration="752000" />
+      <workItem from="1571142484768" duration="1886000" />
+      <workItem from="1571145615076" duration="5703000" />
+      <workItem from="1571194399894" duration="3428000" />
+      <workItem from="1571223272913" duration="11343000" />
+      <workItem from="1571299060258" duration="3149000" />
+      <workItem from="1571308426487" duration="7974000" />
+      <workItem from="1571365756084" duration="4405000" />
+      <workItem from="1571453983353" duration="3716000" />
+      <workItem from="1571464550941" duration="8067000" />
+      <workItem from="1571554816152" duration="12371000" />
+      <workItem from="1571623284219" duration="5715000" />
+      <workItem from="1571638489800" duration="14469000" />
+      <workItem from="1571665756472" duration="693000" />
+      <workItem from="1571705177956" duration="2055000" />
+      <workItem from="1571724407696" duration="9211000" />
+      <workItem from="1571822553703" duration="2975000" />
+      <workItem from="1571897613040" duration="2049000" />
+      <workItem from="1571917239439" duration="3678000" />
+      <workItem from="1571925624161" duration="3672000" />
+      <workItem from="1571970109234" duration="2597000" />
+      <workItem from="1572000616070" duration="5775000" />
+      <workItem from="1572052945950" duration="601000" />
+      <workItem from="1572181857061" duration="5376000" />
+      <workItem from="1572230908174" duration="15742000" />
+      <workItem from="1572269614931" duration="3117000" />
+      <workItem from="1572274649283" duration="2439000" />
+      <workItem from="1572355307610" duration="4278000" />
+      <workItem from="1572393713541" duration="877000" />
+      <workItem from="1572423944781" duration="6583000" />
+      <workItem from="1572445117280" duration="1551000" />
+      <workItem from="1572514869998" duration="1100000" />
+      <workItem from="1572519987860" duration="2754000" />
+      <workItem from="1572527513919" duration="6119000" />
+      <workItem from="1572573173320" duration="5943000" />
+      <workItem from="1572611423285" duration="8555000" />
+      <workItem from="1572657405264" duration="7019000" />
+      <workItem from="1572670521111" duration="3000" />
+      <workItem from="1572691876082" duration="8163000" />
+      <workItem from="1572765638560" duration="2249000" />
+      <workItem from="1572789651858" duration="5251000" />
+      <workItem from="1572934050264" duration="1310000" />
+      <workItem from="1572958799194" duration="1234000" />
+      <workItem from="1573118747252" duration="751000" />
+      <workItem from="1573134752420" duration="5962000" />
+      <workItem from="1573180670068" duration="4143000" />
+      <workItem from="1573202448591" duration="732000" />
+      <workItem from="1573222898087" duration="3474000" />
+      <workItem from="1573261666684" duration="3471000" />
+      <workItem from="1573314340410" duration="698000" />
+      <workItem from="1573394081914" duration="2697000" />
+      <workItem from="1573658199986" duration="2527000" />
+      <workItem from="1573917412987" duration="775000" />
+      <workItem from="1573996380230" duration="5131000" />
+      <workItem from="1574089392493" duration="2628000" />
+      <workItem from="1574121729771" duration="3689000" />
+      <workItem from="1574143947264" duration="3259000" />
+      <workItem from="1574939586683" duration="1324000" />
+      <workItem from="1576225384627" duration="143000" />
+      <workItem from="1576225661377" duration="4023000" />
+      <workItem from="1576325091610" duration="2036000" />
+      <workItem from="1576631796303" duration="50000" />
+      <workItem from="1577064037442" duration="6000" />
+      <workItem from="1577413694567" duration="88000" />
+      <workItem from="1577414269462" duration="719000" />
+      <workItem from="1578281299822" duration="16000" />
+      <workItem from="1578381372061" duration="3000" />
+      <workItem from="1579616408506" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="Git Test">
       <created>1563078834229</created>
@@ -314,7 +415,70 @@
       <option name="project" value="LOCAL" />
       <updated>1571064285832</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Git Test">
+      <created>1571099752237</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571099752237</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Git Test">
+      <created>1571465963673</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571465963673</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Git Test">
+      <created>1571570526337</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571570526337</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Git Test">
+      <created>1571724436973</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1571724436973</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Git Test">
+      <created>1571919269087</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571919269087</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Git Test">
+      <created>1572423974443</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1572423974443</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Git Test">
+      <created>1572619044088</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572619044088</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Git Test">
+      <created>1572766685049</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1572766685049</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Git Test">
+      <created>1573996687157</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573996687157</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,5 +517,43 @@
     </ignored-roots>
     <MESSAGE value="Git Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Git Test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1579617198415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1579617198415" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1579617405380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579617405380" />
+    <state width="1342" height="212" key="GridCell.Tab.0.bottom" timestamp="1577426008362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577426008362" />
+    <state width="1342" height="212" key="GridCell.Tab.0.center" timestamp="1577426008362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577426008362" />
+    <state width="1342" height="212" key="GridCell.Tab.0.left" timestamp="1577426008362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577426008362" />
+    <state width="1342" height="212" key="GridCell.Tab.0.right" timestamp="1577426008362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577426008362" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1579617257469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579617257469" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579616408525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579616408525" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579617413666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1579617413666" />
   </component>
 </project>
